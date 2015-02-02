@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body onload="getPM();">
+		<header id="header">
+			<div id="selectdiv">
+        <p id="selecttext">Choose a project:</p>
+        <select id="PMname" onchange="printAll();"></select>
+			</div>
+		</header>
+	<div id="rest">
+    <div id="PM">
+			<table id="PMtable"></table>
+		</div>
+    <h3 class="labels">DEV</h3>
+		<div id="DEV"></div>
+    <h3 class="labels">QA</h3>
+		<div id="QA"></div>
+	</div>
+  	<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="scripts/papaparse.js" ></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript" src="scripts/printAll.js" ></script>
+		<script type="text/javascript" src="scripts/printChart.js" ></script>
+	</body>
+</html>

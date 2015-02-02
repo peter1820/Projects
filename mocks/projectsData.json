@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Project 1",
+    "PM": "mocks/PM1.json",
+    "QA": {
+            "adr": "mocks/QA1.csv",
+            "data": [
+                      {
+                        "name": "Worked hours",
+                        "tip": "line"
+                      },
+                      {
+                        "name": "Bugs",
+                        "tip": "bar"
+                      },
+                      {
+                        "name": "Worked minutes",
+                        "tip": "line"
+                      },
+                      {
+                        "name": "Worked days",
+                        "tip": "bar"
+                      }
+                    ]
+          },
+    "DEV": {
+            "adr": "mocks/DEV1.csv",
+            "data": [
+                      {
+                        "name": "People on project",
+                        "tip": "line"
+                      },
+                      {
+                        "name": "My Daily Activities",
+                        "tip": "pie",
+                        "adr": "mocks/DEV1_pie.csv"
+                      },
+                      {
+                        "name": "People on holiday",
+                        "tip": "line"
+                      }
+                    ]
+          }    
+  },
+  {
+    "name": "Project 2",
+    "PM": "mocks/PM2.json",
+    "QA": {
+            "adr": "mocks/QA2.csv",
+            "data": [
+                      {
+                        "name": "Swiss Language Use",
+                        "tip": "pie",
+                        "adr": "mocks/QA2_pie.csv"
+                      },
+                      {
+                        "name": "Worked hours",
+                        "tip": "bar"
+                      },
+                      {
+                        "name": "Bugs",
+                        "tip": "line"
+                      }
+                    ]
+          },
+    "DEV": {
+            "adr": "mocks/DEV2.csv",
+            "data": [
+                      {
+                        "name": "People on project",
+                        "tip": "line"
+                      },
+                      {
+                        "name": "People on holiday",
+                        "tip": "line"
+                      },
+                      {
+                        "name": "Worked minutes",
+                        "tip": "line"
+                      }
+                    ]
+          }    
+  }
+]
